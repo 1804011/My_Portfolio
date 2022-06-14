@@ -8,7 +8,9 @@ const Header = () => {
       </li>
 
       <li>
-        <a className="bg-transparent">About</a>
+        <a className="bg-transparent" href="#about">
+          About
+        </a>
       </li>
       <li>
         <a className="bg-transparent">My Skills</a>
@@ -19,10 +21,21 @@ const Header = () => {
       <li>
         <a className="bg-transparent">Contact</a>
       </li>
+      <li>
+        <button className="py-2 my-2 lg:mx-3 uppercase btn text-white font-bold text-sm px-5">
+          <a
+            href="Shariful_Islam_resume (final).pdf"
+            target={"_blank"}
+            download
+          >
+            download Resume
+          </a>
+        </button>
+      </li>
     </>
   );
   return (
-    <div class="navbar lg:mx-[168px] sticky top-0 z-20">
+    <div class="navbar lg:px-[168px] sticky  top-0 z-20 bg-[white] shadow-sm">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
