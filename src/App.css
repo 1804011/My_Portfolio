@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navbar li a:hover {
+  background: -webkit-linear-gradient(#4458dc 0, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient {
+  background: -webkit-linear-gradient(#4458dc 0, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
