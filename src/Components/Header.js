@@ -3,28 +3,28 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const Header = () => {
   const element = (
     <>
-      <li className="mr-2 p-0 bg-transparent">
+      <li className=" p-0 bg-white">
         <Link to="home" smooth={true} duration={150}>
           Home
         </Link>
       </li>
 
-      <li>
+      <li className="bg-white">
         <Link to="about" smooth={true} duration={150}>
           About
         </Link>
       </li>
-      <li>
+      <li className="bg-white">
         <Link to="my-skill" smooth={true} duration={150}>
           My Skills
         </Link>
       </li>
-      <li>
+      <li className="bg-white">
         <Link to="my-projects" smooth duration={150}>
           My Projects
         </Link>
       </li>
-      <li>
+      <li className="bg-white">
         <a className="bg-transparent">Contact</a>
       </li>
       <li>
@@ -62,7 +62,7 @@ const Header = () => {
           </label>
           <ul
             tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52"
+            class=" menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52"
           >
             {element}
           </ul>
@@ -70,7 +70,7 @@ const Header = () => {
         <a class=" normal-case text-xl text-gradient">Sharif</a>
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">{element}</ul>
+        <ul class="menu menu-horizontal p-0 opacity-100">{element}</ul>
       </div>
     </div>
   );
