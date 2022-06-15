@@ -39,7 +39,7 @@ const MyProject = () => {
             "Node Js",
             "Firebase",
             "Heroku",
-            "Express",
+            "Express Js",
             "Mongodb",
           ]}
           git={"https://github.com/1804011/assignment-11-client"}

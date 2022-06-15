@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
+import Contact from "./Contact";
 import Header from "./Header";
 import Introduction from "./Introduction";
 import MyProject from "./MyProject";
@@ -13,6 +14,7 @@ const Home = () => {
       <Introduction />
       <MySkill />
       <MyProject />
+      <Contact />
     </div>
   );
 };
