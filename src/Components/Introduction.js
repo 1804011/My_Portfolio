@@ -17,7 +17,7 @@ const Introduction = () => {
             knowledge about Mysql.
           </p>
           <button className="py-2 my-2 uppercase  font-bold text-sm px-5 intro-btn">
-            Hire me
+            More About Me
           </button>
         </div>
       </div>

@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Pc Parts Manufacturer",
+    "description": "This is website for manufacturing different parts of personal computer such as,monitor,keyboard,mouse,ssd card etc.",
+    "git": "https://github.com/1804011/assignment-12-client",
+    "live": "https://final-assignment-e7661.web.app",
+    "tech": [
+      "React Js",
+      "Mongodb",
+      "Heroku",
+      "Firebase",
+      "Daisyui",
+      "Express Js",
+      "Node Js"
+    ],
+    "ss": [
+      "https://i.ibb.co/SBLn5fr/pc-part-home.png",
+      "https://i.ibb.co/RB92NX3/pc-part-add-prouduct.png",
+      "https://i.ibb.co/QbwjSdj/pc-part-manage-product.png",
+      "https://i.ibb.co/MNVWdKc/pc-part-profile.png"
+    ]
+  },
+  {
+    "title": "Electronics Inventory",
+    "description": "This is a inventory management website for electronics devices.Suc as,mobile,laptop etc.",
+    "git": "https://github.com/1804011/assignment-11-client",
+    "live": "https://assignment-11-124e0.web.app",
+    "tech": [
+      "React Js",
+      "Mongodb",
+      "Heroku",
+      "Firebase",
+      "Express Js",
+      "Node Js"
+    ],
+    "ss": [
+      "https://i.ibb.co/drgVmfs/ass-11-home.png",
+      "https://i.ibb.co/vjQc3jn/ass-11-add.png",
+      "https://i.ibb.co/f9qBtnX/ass-11-manage.png",
+      "https://i.ibb.co/VCjqj75/ass-11-login.png"
+    ]
+  },
+  {
+    "title": "Laptop Review Website",
+    "description": "This is a laptop review website to implement react router dom and dashboard",
+    "git": "https://github.com/1804011/assignment-9",
+    "live": "https://sharif-assigments9.netlify.app",
+    "tech": ["React Js", "Rechart", "React Router Dom", "Javascript"],
+    "ss": [
+      "https://i.ibb.co/9wGjJ2m/a9-home.png",
+      "https://i.ibb.co/kMfZTtR/a9-review.png",
+      "https://i.ibb.co/cxYZkjK/a9-graph.png"
+    ]
+  }
+]

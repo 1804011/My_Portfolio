@@ -26,6 +26,7 @@ const MyProject = () => {
             "Express Js",
             "Node Js",
           ]}
+          id={1}
         />
 
         <Project
@@ -34,6 +35,7 @@ const MyProject = () => {
           description={
             "This is a inventory management website for electronics devices.Suc as,mobile,laptop etc."
           }
+          id={2}
           tech={[
             "React Js",
             "Node Js",
@@ -46,6 +48,7 @@ const MyProject = () => {
           live={"https://assignment-11-124e0.web.app"}
         />
         <Project
+          id={3}
           title="Laptop Review Website"
           img={a9_home}
           description={

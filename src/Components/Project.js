@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const Project = ({ img, description, title, tech, live, git }) => {
+const Project = ({ img, description, title, tech, live, git, id }) => {
   return (
     <div class="card w-72 lg:w-96  bg-base-100 shadow-xl mx-auto lg:mx-0">
       <figure>
@@ -29,9 +30,13 @@ const Project = ({ img, description, title, tech, live, git }) => {
             </button>
           </a>
         </div>
-        <button className="btn btn-outline btn-primary mt-5">
-          Explore Detail
-        </button>
+        <div className="flex justify-center">
+          <Link to={"/" + id}>
+            <button className="btn btn-outline btn-primary mt-5">
+              Explore Detail
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );

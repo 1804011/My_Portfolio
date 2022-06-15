@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import sharif from "../Images/sharif.jpg";
+import sharif_final_2 from "../Images/sharif_final_2.png";
 import "./Banner..css";
 const Banner = () => {
   return (
     <div class="hero -z-10 py-[48px]" id="home">
       <div class="hero-content flex-col lg:flex-row-reverse lg:justify-between lg:w-3/4">
         <img
-          src={sharif}
+          src={sharif_final_2}
           class="max-w-lg rounded-lg"
           width={250}
           height={250}

@@ -1,33 +1,43 @@
 import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+// import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 const Header = () => {
+  const scroll = (id) => {
+    window.location.href = "/#" + id;
+  };
   const element = (
     <>
       <li className=" p-0 bg-white">
-        <Link to="home" smooth={true} duration={150}>
+        <Link to="/#home" onlick={() => scroll("home")}>
           Home
         </Link>
       </li>
 
       <li className="bg-white">
-        <Link to="about" smooth={true} duration={150}>
-          About
-        </Link>
+        <Link to="/about">About</Link>
       </li>
       <li className="bg-white">
-        <Link to="my-skill" smooth={true} duration={150}>
+        <Link
+          to="/#my-skill"
+          onClick={() => scroll("my-skill")}
+          smooth={true}
+          duration={150}
+        >
           My Skills
         </Link>
       </li>
       <li className="bg-white">
-        <Link to="my-projects" smooth duration={150}>
+        <Link to="/#my-projects" onClick={() => scroll("my-projects")}>
           My Projects
         </Link>
       </li>
       <li className="bg-white">
-        <Link to="contact" smooth duration={150}>
+        <Link to="/#contact" onClick={() => scroll("contact")}>
           Contact
         </Link>
+      </li>
+      <li className="bg-white">
+        <Link to="/blogs">Blogs</Link>
       </li>
       <li className="bg-white">
         <button className="py-2 my-2 lg:mx-3 uppercase btn text-white font-bold text-sm px-5">
