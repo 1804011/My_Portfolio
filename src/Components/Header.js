@@ -25,9 +25,11 @@ const Header = () => {
         </Link>
       </li>
       <li className="bg-white">
-        <a className="bg-transparent">Contact</a>
+        <Link to="contact" smooth duration={150}>
+          Contact
+        </Link>
       </li>
-      <li>
+      <li className="bg-white">
         <button className="py-2 my-2 lg:mx-3 uppercase btn text-white font-bold text-sm px-5">
           <a
             href="Shariful_Islam_resume (final).pdf"
@@ -62,7 +64,7 @@ const Header = () => {
           </label>
           <ul
             tabindex="0"
-            class=" menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52"
+            class="bg-white menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52"
           >
             {element}
           </ul>
