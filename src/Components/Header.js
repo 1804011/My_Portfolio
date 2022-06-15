@@ -20,7 +20,9 @@ const Header = () => {
         </Link>
       </li>
       <li>
-        <a className="bg-transparent">My Projects</a>
+        <Link to="my-projects" smooth duration={150}>
+          My Projects
+        </Link>
       </li>
       <li>
         <a className="bg-transparent">Contact</a>
