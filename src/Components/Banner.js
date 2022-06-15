@@ -4,7 +4,7 @@ import sharif from "../Images/sharif.jpg";
 import "./Banner..css";
 const Banner = () => {
   return (
-    <div class="hero -z-10 py-[36px]">
+    <div class="hero -z-10 py-[48px]" id="home">
       <div class="hero-content flex-col lg:flex-row-reverse lg:justify-between lg:w-3/4">
         <img
           src={sharif}

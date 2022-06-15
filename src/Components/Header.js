@@ -1,19 +1,23 @@
 import React from "react";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 const Header = () => {
   const element = (
     <>
       <li className="mr-2 p-0 bg-transparent">
-        <a className="bg-transparent">Home</a>
+        <Link to="home" smooth={true} duration={150}>
+          Home
+        </Link>
       </li>
 
       <li>
-        <a className="bg-transparent" href="#about">
+        <Link to="about" smooth={true} duration={150}>
           About
-        </a>
+        </Link>
       </li>
       <li>
-        <a className="bg-transparent">My Skills</a>
+        <Link to="my-skill" smooth={true} duration={150}>
+          My Skills
+        </Link>
       </li>
       <li>
         <a className="bg-transparent">My Projects</a>
@@ -35,7 +39,7 @@ const Header = () => {
     </>
   );
   return (
-    <div class="navbar lg:px-[168px] sticky  top-0 z-20 bg-[white] shadow-sm">
+    <div class="navbar lg:px-[168px]  sticky  top-0 z-20 bg-[white] shadow-sm">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
